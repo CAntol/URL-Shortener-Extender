@@ -1,0 +1,12 @@
+Setup:
+
+Create Google Account
+Enter the google APIs console: https://code.google.com/apis/console
+Select Services and toggle URL Shortener API to ON
+Select API Access and obtain your API key
+Copy/paste this API key into a file called "creds" and put it in the same directory as url.rb
+You can now run this script
+
+Usage:
+
+ruby url.rb [url to shorten/extend]
