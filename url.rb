@@ -44,7 +44,7 @@ end
 
 # read api key from file
 f = File.open("creds", "r")
-api_key = f.readline
+api_key = f.readline.gsub("\n", "")
 f.close
 
 root = "https://www.googleapis.com"
